@@ -1,4 +1,4 @@
-name: A workflow
+name: A workflow to test 
 on: push
 jobs:
     build:
