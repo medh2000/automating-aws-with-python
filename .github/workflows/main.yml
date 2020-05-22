@@ -1,0 +1,11 @@
+name: A workflow
+on: push
+jobs:
+    build:
+        name: First action
+        runs-on: ubuntu-east
+        steps:
+            - uses: actions/checkout@v1
+            - uses: ./actions
+              with:
+                MY_NAME: Med
