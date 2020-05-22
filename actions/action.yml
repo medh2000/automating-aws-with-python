@@ -1,0 +1,13 @@
+name: "testing action"
+description: "testing actions"
+author: "med hassan"
+
+inputs:
+    MY_NAME:
+        description: "Who to greet"
+        required: true
+        default: "World"
+
+runs:
+    using: "docker"
+    image: "Dockerfile"
